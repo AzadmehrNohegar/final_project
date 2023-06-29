@@ -1,0 +1,209 @@
+img {
+  max-width: 100%;
+}
+main {
+  background: #c4a2e2;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+  color: #fff;
+  height: 50px;
+}
+nav {
+  height: 75px;
+  font-weight: bold;
+  box-shadow: 0px 4px 1.96px 0.04px rgba(51, 71, 82, 0.4);
+}
+span {
+  font-family: Arial;
+}
+.search-input form {
+  width: 75%;
+}
+.search-input form input {
+  border: 2px solid #d5dfe5;
+  border-radius: 5px !important;
+}
+.input-group-btn {
+  top: 1%;
+  left: 76%;
+}
+.input-group-btn button i {
+  font-weight: bold;
+}
+ul.nav-ul li:hover {
+  border-top: 3px solid #31a7de;
+  box-shadow: inset 0px 1px 9px 0px #e5e8ea;
+}
+.bg-map {
+  background-image: url("../img/World Map.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.pro-list ul li i {
+  color: #3bd825;
+  font-size: 20px;
+}
+.pro-list ul li i span {
+  color: #fff;
+  font-size: 1rem;
+}
+.server-row {
+  height: 230%;
+}
+.left-side {
+  width: 43%;
+}
+.mid-side {
+  margin: 0 -40px 70px -40px;
+}
+img.Left-server {
+  z-index: 20;
+}
+img.Mid-server {
+  z-index: 40;
+}
+img.Right-server {
+  z-index: 20;
+}
+.clouds div.row img:nth-child(2) {
+  width: 80%;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.plans-header {
+  margin-top: 100px;
+}
+.plans-pros {
+  margin-top: 65px;
+}
+.plans-card {
+  transition: all 0.5s ease;
+}
+.plans-card:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.plans-border {
+  background: linear-gradient(#ffffff, #ffffff) -0% -0% / calc(10% - 6px)
+      calc(10% - 6px) no-repeat,
+    radial-gradient(#c4c4c4 0%, #ffffff 50%, rgba(255, 255, 255, 1) 50%)
+      no-repeat;
+  border-radius: 1000px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 45px;
+}
+.package {
+  padding-top: 50px;
+  box-shadow: 0px 116px 228px -152px rgba(196, 196, 196, 0.53) inset;
+}
+.search-domain .row {
+  width: 650px;
+  height: 50px;
+  /* border: 1px solid #c4c4c4; */
+  border-radius: 10px;
+}
+.search-domain input {
+  height: 90%;
+  border: 1px solid #c4c4c4;
+  border-right: 0;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #efefef;
+}
+.search-domain button {
+  height: 90%;
+  border: none;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #35ace2;
+  color: #fff;
+}
+.package-cards {
+  height: 320px;
+  margin-top: 100px;
+}
+.package-cards > div {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  max-width: 220px;
+}
+.package-cards .upper-half {
+  background-color: #3bb5e9;
+  background-image: url("../img/Map.png");
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.package-cards .upper-half .inner-circle {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.package-cards .upper-half .outer-circle {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.package-cards .upper-half .price {
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.package-cards .upper-half .price h4 {
+  font-size: 15px;
+}
+.package-cards .upper-half .server-pic img {
+  margin-top: 70px;
+}
+.mini-clouds {
+  margin-top: -25px;
+  z-index: 10;
+}
+.option ul.card-option li {
+  color: #3bd825;
+}
+.option ul.card-option li span {
+  color: #000;
+  font-size: 13px;
+}
+.option button {
+  font-size: 13px;
+  width: 90px;
+  height: 40px;
+  margin-top: 3px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #31a7de;
+}
+.package + .plans-border {
+  margin-top: 80px;
+}
+.custom-plans {
+  padding-top: 50px;
+  box-shadow: 0px 116px 228px -152px rgba(196, 196, 196, 0.53) inset;
+}
+.custom-plans button {
+  font-size: 13px;
+  width: 120px;
+  height: 40px;
+  margin-top: 3px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #31a7de;
+}
+footer {
+  background-color: #c4a2e2;
+  margin-top: 80px;
+}
