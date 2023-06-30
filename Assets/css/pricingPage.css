@@ -1,0 +1,16 @@
+table {
+  border-collapse: separate;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #aaa !important;
+  border-radius: 4px;
+}
+thead th {
+  color: #00c7fc;
+}
+table i {
+  color: #3bd825;
+  font-weight: 900;
+}

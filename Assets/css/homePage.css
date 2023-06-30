@@ -19,6 +19,28 @@ nav {
   font-weight: bold;
   box-shadow: 0px 4px 1.96px 0.04px rgba(51, 71, 82, 0.4);
 }
+.resp-nav {
+  background-color: #f8fafb;
+  overflow: hidden;
+  transition: all ease .5s;
+}
+.resp-nav a {
+  color: #000;
+}
+.resp-nav ul li:first-child a {
+  font-size: 40px;
+  margin: 0 20px;
+}
+.resp-nav ul li:not(:first-child) a {
+  display: none;
+}
+.responsive {
+  position: relative !important;
+}
+.responsive a{
+  display: block !important;
+}
+
 span {
   font-family: Arial;
 }
@@ -56,7 +78,7 @@ ul.nav-ul li:hover {
   font-size: 1rem;
 }
 .server-row {
-  height: 230%;
+  height: 214%;
 }
 .left-side {
   width: 43%;
@@ -132,7 +154,7 @@ img.Right-server {
   color: #fff;
 }
 .package-cards {
-  height: 320px;
+  min-height: 320px;
   margin-top: 100px;
 }
 .package-cards > div {
@@ -172,6 +194,8 @@ img.Right-server {
 .mini-clouds {
   margin-top: -25px;
   z-index: 10;
+}
+.mini-clouds img {
 }
 .option ul.card-option li {
   color: #3bd825;
